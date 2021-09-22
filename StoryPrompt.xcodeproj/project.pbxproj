@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		254D99BE26F7B6C900341FBE /* StoryPromptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254D99BD26F7B6C900341FBE /* StoryPromptTableViewController.swift */; };
+		2550E91526FB8EE900E380EE /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550E91326FB8EE900E380EE /* StoryPromptEntry.swift */; };
+		2550E91626FB8EE900E380EE /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550E91426FB8EE900E380EE /* StoryPrompts.swift */; };
 		257C83C826F35A36005A453C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C83C726F35A36005A453C /* AppDelegate.swift */; };
 		257C83CA26F35A36005A453C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C83C926F35A36005A453C /* SceneDelegate.swift */; };
 		257C83CC26F35A36005A453C /* AddStoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C83CB26F35A36005A453C /* AddStoryPromptViewController.swift */; };
 		257C83CF26F35A36005A453C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257C83CD26F35A36005A453C /* Main.storyboard */; };
 		257C83D126F35A3B005A453C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257C83D026F35A3B005A453C /* Assets.xcassets */; };
 		257C83D426F35A3B005A453C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257C83D226F35A3B005A453C /* LaunchScreen.storyboard */; };
-		257C83DE26F35C15005A453C /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C83DC26F35C15005A453C /* StoryPromptEntry.swift */; };
-		257C83DF26F35C15005A453C /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C83DD26F35C15005A453C /* StoryPrompts.swift */; };
 		2598064426F635230097C301 /* StoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598064326F635230097C301 /* StoryPromptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		254D99BD26F7B6C900341FBE /* StoryPromptTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptTableViewController.swift; sourceTree = "<group>"; };
+		2550E91326FB8EE900E380EE /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
+		2550E91426FB8EE900E380EE /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
 		257C83C426F35A36005A453C /* StoryPrompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryPrompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257C83C726F35A36005A453C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257C83C926F35A36005A453C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		257C83D026F35A3B005A453C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257C83D326F35A3B005A453C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257C83D526F35A3B005A453C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		257C83DC26F35C15005A453C /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
-		257C83DD26F35C15005A453C /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
 		2598064326F635230097C301 /* StoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +79,8 @@
 		257C83DB26F35B5C005A453C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				257C83DC26F35C15005A453C /* StoryPromptEntry.swift */,
-				257C83DD26F35C15005A453C /* StoryPrompts.swift */,
+				2550E91326FB8EE900E380EE /* StoryPromptEntry.swift */,
+				2550E91426FB8EE900E380EE /* StoryPrompts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,11 +167,11 @@
 			files = (
 				254D99BE26F7B6C900341FBE /* StoryPromptTableViewController.swift in Sources */,
 				2598064426F635230097C301 /* StoryPromptViewController.swift in Sources */,
-				257C83DF26F35C15005A453C /* StoryPrompts.swift in Sources */,
 				257C83CC26F35A36005A453C /* AddStoryPromptViewController.swift in Sources */,
 				257C83C826F35A36005A453C /* AppDelegate.swift in Sources */,
-				257C83DE26F35C15005A453C /* StoryPromptEntry.swift in Sources */,
+				2550E91526FB8EE900E380EE /* StoryPromptEntry.swift in Sources */,
 				257C83CA26F35A36005A453C /* SceneDelegate.swift in Sources */,
+				2550E91626FB8EE900E380EE /* StoryPrompts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
